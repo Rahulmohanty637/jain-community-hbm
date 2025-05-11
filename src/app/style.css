@@ -1,0 +1,27 @@
+.bg-primary {
+  background-color: #884ea0;
+}
+
+.bg-secondary {
+  background-color: #f4e1b9;
+}
+
+.text-primary {
+  color: #884ea0;
+}
+
+.text-accent {
+  color: #d4af37;
+}
+
+.bg-accent {
+  background-color: #d4af37;
+}
+
+.bg-background {
+  background-color: #faf9f6;
+}
+
+.text-slate {
+  color: #4b5563;
+}

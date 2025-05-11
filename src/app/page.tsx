@@ -1,6 +1,7 @@
 "use client";
 
 import Head from "next/head";
+import Image from "next/image";
 import "./style.css";
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
@@ -17,6 +18,7 @@ export default function Home() {
     {
       url: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
+
     {
       url: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -47,7 +49,7 @@ export default function Home() {
     {
       id: 1,
       icon: (
-        <img
+        <Image
           src="/bed.png"
           alt="Queen Size Bed"
           className="w-16 h-16 mx-auto hover:scale-110 transition-transform duration-300 img-shadow"
@@ -59,7 +61,7 @@ export default function Home() {
     {
       id: 2,
       icon: (
-        <img
+        <Image
           src="/boiling.png"
           alt="Hot and Cold Water"
           className="w-16 h-16 mx-auto hover:scale-110 transition-transform duration-300 img-shadow"
@@ -71,7 +73,7 @@ export default function Home() {
     {
       id: 3,
       icon: (
-        <img
+        <Image
           src="/renewable-energy.png"
           alt="Power Backup"
           className="w-16 h-16 mx-auto hover:scale-110 transition-transform duration-300 img-shadow"
@@ -83,7 +85,7 @@ export default function Home() {
     {
       id: 4,
       icon: (
-        <img
+        <Image
           src="/cutlery.png"
           alt="Paid Food Service"
           className="w-16 h-16 mx-auto hover:scale-110 transition-transform duration-300 img-shadow"
@@ -181,8 +183,8 @@ export default function Home() {
         </h3>
         <p className="text-text text-center leading-7 animate-paragraph">
           Shree Padmaprabha, the sixth Tirthankara in Jainism, was born in
-          Kausambi to King Shridhar and Queen Susimadevi. His name means "bright
-          as a red lotus," symbolizing purity and spiritual enlightenment. He
+          Kausambi to King Shridhar and Queen Susimadevi. His name means bright
+          as a red lotus, symbolizing purity and spiritual enlightenment. He
           renounced worldly life, attained omniscience under a banyan tree, and
           achieved moksha at Sammed Shikhar. Wikipedia In 1944, a red stone idol
           of Padmaprabha was discovered in Padampura, Rajasthan, leading to the
@@ -251,7 +253,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg p-6 max-w-4xl mx-auto my-8">
           {/* Image Section */}
           <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
-            <img
+            <Image
               src="/family.png" // Ensure this image exists in your public/images directory
               alt="Room"
               className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-gray-200"
@@ -366,7 +368,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="flex flex-col items-center text-blue-600 hover:text-blue-800 text-3xl transition-transform transform hover:scale-110"
             >
-              <img
+              <Image
                 src="/facebook.png"
                 alt="Facebook"
                 className="w-12 h-12 mb-2"
@@ -382,7 +384,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="flex flex-col items-center text-blue-600 hover:text-blue-800 text-3xl transition-transform transform hover:scale-110"
             >
-              <img
+              <Image
                 src="/social.png"
                 alt="Instagram"
                 className="w-12 h-12 mb-2"
@@ -396,7 +398,7 @@ export default function Home() {
               href="tel:+1234567890"
               className="flex flex-col items-center text-blue-600 hover:text-blue-800 text-3xl transition-transform transform hover:scale-110"
             >
-              <img
+              <Image
                 src="/phone-call.png"
                 alt="Phone"
                 className="w-12 h-12 mb-2"
@@ -410,7 +412,7 @@ export default function Home() {
               href="mailto:info@example.com"
               className="flex flex-col items-center text-blue-600 hover:text-blue-800 text-3xl transition-transform transform hover:scale-110"
             >
-              <img src="/mail.png" alt="Email" className="w-12 h-12 mb-2" />
+              <Image src="/mail.png" alt="Email" className="w-12 h-12 mb-2" />
               <span className="text-gray-700 text-blue-600 hover:text-blue-800 text-2xl transition-transform transform hover:scale-110">
                 info@example.com
               </span>
@@ -422,7 +424,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="flex flex-col items-center text-blue-600 hover:text-blue-800 text-3xl transition-transform transform hover:scale-110"
             >
-              <img
+              <Image
                 src="/location.png"
                 alt="Location"
                 className="w-12 h-12 mb-2"
@@ -462,7 +464,7 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-96 w-72">
-                <img
+                <Image
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxjthUzVAXxSbk-z8cVi5-raGZOIqz29TvnQ&s"
                   alt=""
@@ -482,7 +484,7 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-96 w-72">
-                <img
+                <Image
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzrFFP2KR3skMFUS0U_Iho7U33y5T1hsoybg&s"
                   alt=""
@@ -502,7 +504,7 @@ export default function Home() {
             </div>
             <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
               <div className="h-96 w-72">
-                <img
+                <Image
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
                   src="https://agamdhara.com/wp-content/uploads/2017/09/jainpuja.jpg"
                   alt=""
@@ -529,35 +531,35 @@ export default function Home() {
           Gallery
         </h3>
         <div className="columns-1 gap-5 lg:gap-8 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1650119499755-93387331958a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://plus.unsplash.com/premium_photo-1697729725856-05c3e7aeec30?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1683982509071-efff7892196a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1633135612391-13c8a576b836?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1590998743997-368c04b78aa4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://plus.unsplash.com/premium_photo-1697730461946-f1a3a5a8a113?q=80&w=2137&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1700985959056-a893bd864c0e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
             alt=""
           />
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1645021399872-94a83c4481b2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
@@ -565,27 +567,27 @@ export default function Home() {
             src="https://images.unsplash.com/photo-1656354438268-0adb203b41a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           /> */}
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1650854031787-abf1bd3e7c8d?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1667849357566-0d7928bd9e5d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1585082830087-9af07ae93b15?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1651588377954-3af843c3101c?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1591633382222-4ce4caa53463?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1629011883648-ebcd903df798?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />

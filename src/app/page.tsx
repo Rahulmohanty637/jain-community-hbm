@@ -41,7 +41,7 @@ export default function Home() {
     setCurrentIndex(newIndex);
   };
 
-  const goToSlide = (slideIndex) => {
+  const goToSlide = (slideIndex : number) => {
     setCurrentIndex(slideIndex);
   };
 
